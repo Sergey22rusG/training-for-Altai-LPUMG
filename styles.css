@@ -1,3 +1,4 @@
+/* Основные стили */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -31,4 +32,54 @@ ul, ol {
 
 section {
   margin-bottom: 30px;
+}
+
+/* Стили для аккордеона */
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #007BFF;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #0056b3;
+}
+
+.accordion-content {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content ul {
+  padding-left: 20px;
+}
+
+.accordion-content li {
+  margin-bottom: 10px;
+}
+
+/* Класс для развернутого состояния */
+.accordion-item.active .accordion-content {
+  max-height: 500px; /* Увеличьте, если контента больше */
+  padding: 15px;
 }
