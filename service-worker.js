@@ -1,11 +1,11 @@
 const CACHE_NAME = 'workout-app-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/icon-192x192.png',
-  '/icon-512x512.png'
+  '/training-for-Altai-LPUMG/',
+  '/training-for-Altai-LPUMG/index.html',
+  '/training-for-Altai-LPUMG/styles.css',
+  '/training-for-Altai-LPUMG/app.js',
+  '/training-for-Altai-LPUMG/icon-192x192.png',
+  '/training-for-Altai-LPUMG/icon-512x512.png'
 ];
 
 self.addEventListener('install', function(event) {
