@@ -3,17 +3,17 @@
   "name": "Круговая тренировка",
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "/training-for-Altai-LPUMG/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "/training-for-Altai-LPUMG/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/training-for-Altai-LPUMG/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007BFF"
